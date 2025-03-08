@@ -344,7 +344,11 @@ namespace XeApp.Game.Common
 			{
 				rightFootShadow.SetColor(shadowColor);
 			}
-		}
+			if (facialBlendAnimMediator != null)
+			{
+				facialBlendAnimMediator.UpdateCheekAlpha();
+			}
+        }
 
 		//// RVA: 0xE98E04 Offset: 0xE98E04 VA: 0xE98E04 Slot: 8
 		protected override void SetupEffectObject(List<GameObject> a_effect)
