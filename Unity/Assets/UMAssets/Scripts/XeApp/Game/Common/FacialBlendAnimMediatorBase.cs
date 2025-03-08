@@ -258,7 +258,7 @@ namespace XeApp.Game.Common
 		}
 
 		//// RVA: 0x1C119EC Offset: 0x1C119EC VA: 0x1C119EC
-		private void UpdateCheekAlpha()
+		public void UpdateCheekAlpha()
 		{
 			if(cheekMeshRenderer != null && cheekTransforms != null)
 			{
